@@ -1,0 +1,530 @@
+[14-Mar-2020 20:59:43 Asia/Tokyo] PHP Warning:  require_once(/Applications/MAMP/htdocs/Learn_PHP_Paging/config/../lib/functions.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/Learn_PHP_Paging/config/config.php on line 24
+[14-Mar-2020 20:59:43 Asia/Tokyo] PHP Fatal error:  require_once(): Failed opening required '/Applications/MAMP/htdocs/Learn_PHP_Paging/config/../lib/functions.php' (include_path='.:/Applications/MAMP/bin/php/php7.3.1/lib/php') in /Applications/MAMP/htdocs/Learn_PHP_Paging/config/config.php on line 24
+[14-Mar-2020 21:03:56 Asia/Tokyo] PHP Notice:  Undefined property: stdClass::$name in /Applications/MAMP/htdocs/Learn_PHP_Paging/lib/Controller/Index.php on line 9
+[14-Mar-2020 21:03:56 Asia/Tokyo] DEBUG：
+[14-Mar-2020 21:04:48 Asia/Tokyo] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/lib/Controller/Index.php on line 9
+[14-Mar-2020 21:04:48 Asia/Tokyo] DEBUG：
+[14-Mar-2020 21:04:58 Asia/Tokyo] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/Learn_PHP_Paging/config/config.php on line 33
+[14-Mar-2020 21:04:58 Asia/Tokyo] DEBUG：Array
+[14-Mar-2020 21:05:14 Asia/Tokyo] PHP Notice:  Trying to get property 'food' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/lib/Controller/Index.php on line 9
+[14-Mar-2020 21:05:14 Asia/Tokyo] DEBUG：
+[14-Mar-2020 21:05:36 Asia/Tokyo] PHP Notice:  Undefined index: food in /Applications/MAMP/htdocs/Learn_PHP_Paging/lib/Controller/Index.php on line 9
+[14-Mar-2020 21:05:36 Asia/Tokyo] DEBUG：
+[14-Mar-2020 21:05:47 Asia/Tokyo] PHP Notice:  Undefined index: name in /Applications/MAMP/htdocs/Learn_PHP_Paging/lib/Controller/Index.php on line 9
+[14-Mar-2020 21:05:47 Asia/Tokyo] DEBUG：
+[14-Mar-2020 21:06:15 Asia/Tokyo] PHP Notice:  Undefined property: stdClass::$name in /Applications/MAMP/htdocs/Learn_PHP_Paging/lib/Controller/Index.php on line 9
+[14-Mar-2020 21:06:15 Asia/Tokyo] DEBUG：
+[14-Mar-2020 21:23:25 Asia/Tokyo] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/Learn_PHP_Paging/lib/Model/Animals.php on line 11
+[14-Mar-2020 21:23:25 Asia/Tokyo] DEBUG：$resArray
+[14-Mar-2020 21:23:55 Asia/Tokyo] DEBUG：Array
+(
+)
+
+[14-Mar-2020 21:24:47 Asia/Tokyo] DEBUG：
+[14-Mar-2020 21:26:27 Asia/Tokyo] DEBUG：
+[14-Mar-2020 21:26:28 Asia/Tokyo] DEBUG：
+[14-Mar-2020 21:27:53 Asia/Tokyo] DEBUG：
+[14-Mar-2020 21:30:24 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function setFetchMode() on bool in /Applications/MAMP/htdocs/Learn_PHP_Paging/lib/Model/Animals.php:16
+Stack trace:
+#0 /Applications/MAMP/htdocs/Learn_PHP_Paging/lib/Controller/Index.php(8): MyApp\Model\Animals->findAll()
+#1 /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php(4): MyApp\Controller\Index->run()
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/Learn_PHP_Paging/lib/Model/Animals.php on line 16
+[14-Mar-2020 21:31:53 Asia/Tokyo] DEBUG：
+[14-Mar-2020 21:31:53 Asia/Tokyo] PHP Notice:  Undefined variable: animal in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 24
+[14-Mar-2020 21:31:53 Asia/Tokyo] PHP Notice:  Trying to get property 'food' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 24
+[14-Mar-2020 21:32:27 Asia/Tokyo] DEBUG：
+[14-Mar-2020 21:33:28 Asia/Tokyo] DEBUG：
+[14-Mar-2020 21:34:13 Asia/Tokyo] DEBUG：Array
+(
+    [0] => stdClass Object
+        (
+            [name] => ぞう
+            [food] => 草
+        )
+
+    [1] => stdClass Object
+        (
+            [name] => キリン
+            [food] => 草
+        )
+
+    [2] => stdClass Object
+        (
+            [name] => 犬
+            [food] => 肉
+        )
+
+    [3] => stdClass Object
+        (
+            [name] => 猫
+            [food] => 肉
+        )
+
+    [4] => stdClass Object
+        (
+            [name] => シカ
+            [food] => せんべい
+        )
+
+    [5] => stdClass Object
+        (
+            [name] => キツネ
+            [food] => 肉
+        )
+
+    [6] => stdClass Object
+        (
+            [name] => ふくろう
+            [food] => ねずみ
+        )
+
+    [7] => stdClass Object
+        (
+            [name] => ハイエナ
+            [food] => 肉
+        )
+
+    [8] => stdClass Object
+        (
+            [name] => ウサギ
+            [food] => 草
+        )
+
+    [9] => stdClass Object
+        (
+            [name] => カバ
+            [food] => 雑食
+        )
+
+    [10] => stdClass Object
+        (
+            [name] => パンダ
+            [food] => 笹
+        )
+
+)
+
+[14-Mar-2020 21:34:16 Asia/Tokyo] DEBUG：Array
+(
+    [0] => stdClass Object
+        (
+            [name] => ぞう
+            [food] => 草
+        )
+
+    [1] => stdClass Object
+        (
+            [name] => キリン
+            [food] => 草
+        )
+
+    [2] => stdClass Object
+        (
+            [name] => 犬
+            [food] => 肉
+        )
+
+    [3] => stdClass Object
+        (
+            [name] => 猫
+            [food] => 肉
+        )
+
+    [4] => stdClass Object
+        (
+            [name] => シカ
+            [food] => せんべい
+        )
+
+    [5] => stdClass Object
+        (
+            [name] => キツネ
+            [food] => 肉
+        )
+
+    [6] => stdClass Object
+        (
+            [name] => ふくろう
+            [food] => ねずみ
+        )
+
+    [7] => stdClass Object
+        (
+            [name] => ハイエナ
+            [food] => 肉
+        )
+
+    [8] => stdClass Object
+        (
+            [name] => ウサギ
+            [food] => 草
+        )
+
+    [9] => stdClass Object
+        (
+            [name] => カバ
+            [food] => 雑食
+        )
+
+    [10] => stdClass Object
+        (
+            [name] => パンダ
+            [food] => 笹
+        )
+
+)
+
+[14-Mar-2020 21:34:33 Asia/Tokyo] DEBUG：Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 1
+            [name] => ぞう
+            [food] => 草
+            [create_date] => 
+            [update_date] => 2020-03-14 19:36:18
+            [create_time] => 2020-03-14 19:57:26
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 2
+            [name] => キリン
+            [food] => 草
+            [create_date] => 
+            [update_date] => 2020-03-14 19:36:39
+            [create_time] => 2020-03-14 19:57:26
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => 3
+            [name] => 犬
+            [food] => 肉
+            [create_date] => 
+            [update_date] => 2020-03-14 19:44:59
+            [create_time] => 2020-03-14 19:57:26
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 4
+            [name] => 猫
+            [food] => 肉
+            [create_date] => 
+            [update_date] => 2020-03-14 19:44:59
+            [create_time] => 2020-03-14 19:57:26
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 5
+            [name] => シカ
+            [food] => せんべい
+            [create_date] => 
+            [update_date] => 2020-03-14 19:46:05
+            [create_time] => 2020-03-14 19:57:26
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => 6
+            [name] => キツネ
+            [food] => 肉
+            [create_date] => 2020-03-14 19:47:29
+            [update_date] => 2020-03-14 19:47:57
+            [create_time] => 2020-03-14 19:57:26
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 7
+            [name] => ふくろう
+            [food] => ねずみ
+            [create_date] => 
+            [update_date] => 2020-03-14 20:00:41
+            [create_time] => 2020-03-14 20:00:41
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => 8
+            [name] => ハイエナ
+            [food] => 肉
+            [create_date] => 2020-03-14 20:21:03
+            [update_date] => 2020-03-14 20:21:03
+            [create_time] => 2020-03-14 20:21:03
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => 9
+            [name] => ウサギ
+            [food] => 草
+            [create_date] => 2020-03-14 20:22:46
+            [update_date] => 2020-03-14 20:22:46
+            [create_time] => 2020-03-14 20:22:46
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => 10
+            [name] => カバ
+            [food] => 雑食
+            [create_date] => 2020-03-14 20:22:47
+            [update_date] => 2020-03-14 20:22:47
+            [create_time] => 2020-03-14 20:22:47
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => 11
+            [name] => パンダ
+            [food] => 笹
+            [create_date] => 2020-03-14 20:22:47
+            [update_date] => 2020-03-14 20:22:47
+            [create_time] => 2020-03-14 20:22:47
+        )
+
+)
+
+[14-Mar-2020 21:34:36 Asia/Tokyo] DEBUG：Array
+(
+    [0] => stdClass Object
+        (
+            [id] => 1
+            [name] => ぞう
+            [food] => 草
+            [create_date] => 
+            [update_date] => 2020-03-14 19:36:18
+            [create_time] => 2020-03-14 19:57:26
+        )
+
+    [1] => stdClass Object
+        (
+            [id] => 2
+            [name] => キリン
+            [food] => 草
+            [create_date] => 
+            [update_date] => 2020-03-14 19:36:39
+            [create_time] => 2020-03-14 19:57:26
+        )
+
+    [2] => stdClass Object
+        (
+            [id] => 3
+            [name] => 犬
+            [food] => 肉
+            [create_date] => 
+            [update_date] => 2020-03-14 19:44:59
+            [create_time] => 2020-03-14 19:57:26
+        )
+
+    [3] => stdClass Object
+        (
+            [id] => 4
+            [name] => 猫
+            [food] => 肉
+            [create_date] => 
+            [update_date] => 2020-03-14 19:44:59
+            [create_time] => 2020-03-14 19:57:26
+        )
+
+    [4] => stdClass Object
+        (
+            [id] => 5
+            [name] => シカ
+            [food] => せんべい
+            [create_date] => 
+            [update_date] => 2020-03-14 19:46:05
+            [create_time] => 2020-03-14 19:57:26
+        )
+
+    [5] => stdClass Object
+        (
+            [id] => 6
+            [name] => キツネ
+            [food] => 肉
+            [create_date] => 2020-03-14 19:47:29
+            [update_date] => 2020-03-14 19:47:57
+            [create_time] => 2020-03-14 19:57:26
+        )
+
+    [6] => stdClass Object
+        (
+            [id] => 7
+            [name] => ふくろう
+            [food] => ねずみ
+            [create_date] => 
+            [update_date] => 2020-03-14 20:00:41
+            [create_time] => 2020-03-14 20:00:41
+        )
+
+    [7] => stdClass Object
+        (
+            [id] => 8
+            [name] => ハイエナ
+            [food] => 肉
+            [create_date] => 2020-03-14 20:21:03
+            [update_date] => 2020-03-14 20:21:03
+            [create_time] => 2020-03-14 20:21:03
+        )
+
+    [8] => stdClass Object
+        (
+            [id] => 9
+            [name] => ウサギ
+            [food] => 草
+            [create_date] => 2020-03-14 20:22:46
+            [update_date] => 2020-03-14 20:22:46
+            [create_time] => 2020-03-14 20:22:46
+        )
+
+    [9] => stdClass Object
+        (
+            [id] => 10
+            [name] => カバ
+            [food] => 雑食
+            [create_date] => 2020-03-14 20:22:47
+            [update_date] => 2020-03-14 20:22:47
+            [create_time] => 2020-03-14 20:22:47
+        )
+
+    [10] => stdClass Object
+        (
+            [id] => 11
+            [name] => パンダ
+            [food] => 笹
+            [create_date] => 2020-03-14 20:22:47
+            [update_date] => 2020-03-14 20:22:47
+            [create_time] => 2020-03-14 20:22:47
+        )
+
+)
+
+[14-Mar-2020 21:35:18 Asia/Tokyo] DEBUG：
+[14-Mar-2020 21:37:53 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 21:59:44 Asia/Tokyo] PHP Notice:  Undefined variable: books in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 16
+[14-Mar-2020 21:59:44 Asia/Tokyo] PHP Warning:  array_slice() expects parameter 1 to be array, null given in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 16
+[14-Mar-2020 22:06:39 Asia/Tokyo] PHP Notice:  Undefined variable: sth in /Applications/MAMP/htdocs/Learn_PHP_Paging/lib/Model/Animals.php on line 9
+[14-Mar-2020 22:06:39 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on null in /Applications/MAMP/htdocs/Learn_PHP_Paging/lib/Model/Animals.php:9
+Stack trace:
+#0 /Applications/MAMP/htdocs/Learn_PHP_Paging/lib/Controller/Index.php(8): MyApp\Model\Animals->findAll()
+#1 /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php(4): MyApp\Controller\Index->run()
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/Learn_PHP_Paging/lib/Model/Animals.php on line 9
+[14-Mar-2020 22:06:58 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Function name must be a string in /Applications/MAMP/htdocs/Learn_PHP_Paging/lib/Model/Animals.php:9
+Stack trace:
+#0 /Applications/MAMP/htdocs/Learn_PHP_Paging/lib/Controller/Index.php(8): MyApp\Model\Animals->findAll()
+#1 /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php(4): MyApp\Controller\Index->run()
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/Learn_PHP_Paging/lib/Model/Animals.php on line 9
+[14-Mar-2020 22:08:50 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:08:50 Asia/Tokyo] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 30
+[14-Mar-2020 22:08:50 Asia/Tokyo] PHP Notice:  Trying to get property 'food' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 31
+[14-Mar-2020 22:08:50 Asia/Tokyo] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 30
+[14-Mar-2020 22:08:50 Asia/Tokyo] PHP Notice:  Trying to get property 'food' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 31
+[14-Mar-2020 22:08:50 Asia/Tokyo] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 30
+[14-Mar-2020 22:08:50 Asia/Tokyo] PHP Notice:  Trying to get property 'food' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 31
+[14-Mar-2020 22:08:50 Asia/Tokyo] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 30
+[14-Mar-2020 22:08:50 Asia/Tokyo] PHP Notice:  Trying to get property 'food' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 31
+[14-Mar-2020 22:08:50 Asia/Tokyo] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 30
+[14-Mar-2020 22:08:50 Asia/Tokyo] PHP Notice:  Trying to get property 'food' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 31
+[14-Mar-2020 22:08:50 Asia/Tokyo] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 30
+[14-Mar-2020 22:08:50 Asia/Tokyo] PHP Notice:  Trying to get property 'food' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 31
+[14-Mar-2020 22:08:50 Asia/Tokyo] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 30
+[14-Mar-2020 22:08:50 Asia/Tokyo] PHP Notice:  Trying to get property 'food' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 31
+[14-Mar-2020 22:08:50 Asia/Tokyo] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 30
+[14-Mar-2020 22:08:50 Asia/Tokyo] PHP Notice:  Trying to get property 'food' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 31
+[14-Mar-2020 22:08:50 Asia/Tokyo] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 30
+[14-Mar-2020 22:08:50 Asia/Tokyo] PHP Notice:  Trying to get property 'food' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 31
+[14-Mar-2020 22:08:50 Asia/Tokyo] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 30
+[14-Mar-2020 22:08:50 Asia/Tokyo] PHP Notice:  Trying to get property 'food' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 31
+[14-Mar-2020 22:08:50 Asia/Tokyo] PHP Notice:  Trying to get property 'name' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 30
+[14-Mar-2020 22:08:50 Asia/Tokyo] PHP Notice:  Trying to get property 'food' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 31
+[14-Mar-2020 22:12:00 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:12:00 Asia/Tokyo] PHP Notice:  Trying to get property 'food' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 31
+[14-Mar-2020 22:12:00 Asia/Tokyo] PHP Notice:  Trying to get property 'food' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 31
+[14-Mar-2020 22:12:00 Asia/Tokyo] PHP Notice:  Trying to get property 'food' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 31
+[14-Mar-2020 22:12:00 Asia/Tokyo] PHP Notice:  Trying to get property 'food' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 31
+[14-Mar-2020 22:12:00 Asia/Tokyo] PHP Notice:  Trying to get property 'food' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 31
+[14-Mar-2020 22:12:00 Asia/Tokyo] PHP Notice:  Trying to get property 'food' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 31
+[14-Mar-2020 22:12:00 Asia/Tokyo] PHP Notice:  Trying to get property 'food' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 31
+[14-Mar-2020 22:12:00 Asia/Tokyo] PHP Notice:  Trying to get property 'food' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 31
+[14-Mar-2020 22:12:00 Asia/Tokyo] PHP Notice:  Trying to get property 'food' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 31
+[14-Mar-2020 22:12:00 Asia/Tokyo] PHP Notice:  Trying to get property 'food' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 31
+[14-Mar-2020 22:12:00 Asia/Tokyo] PHP Notice:  Trying to get property 'food' of non-object in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 31
+[14-Mar-2020 22:12:11 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:14:23 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:14:53 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:15:31 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:15:35 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:17:18 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:17:54 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:17:54 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:19:06 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:19:06 Asia/Tokyo] PHP Notice:  Undefined variable: animals_num in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 16
+[14-Mar-2020 22:19:06 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:19:32 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:19:32 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:19:36 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:19:36 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:19:42 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:19:42 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:19:47 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:19:47 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:19:55 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:19:55 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:20:28 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:20:28 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:22:47 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:22:51 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:22:52 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:22:54 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:23:00 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:23:01 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:23:02 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:23:04 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:23:24 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:23:26 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:23:27 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:23:32 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:23:33 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:23:34 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:24:46 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:25:00 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:25:02 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:25:03 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:25:04 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:25:07 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:27:42 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:27:43 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:27:44 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:27:45 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:37:47 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:37:47 Asia/Tokyo] PHP Warning:  Use of undefined constant 次へ - assumed '次へ' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/Learn_PHP_Paging/index.php on line 49
+[14-Mar-2020 22:38:08 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:38:11 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:38:12 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:38:14 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:38:46 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:38:48 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:38:52 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:38:53 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:38:54 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:39:18 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:39:21 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:39:22 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:39:24 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:39:25 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:43:53 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:43:56 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:43:57 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:43:58 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:45:25 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:45:26 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:45:27 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:45:27 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 22:45:28 Asia/Tokyo] DEBUG：1
+[14-Mar-2020 23:09:07 Asia/Tokyo] DEBUG：1
